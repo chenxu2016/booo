@@ -1,0 +1,154 @@
+body{
+    font-size:12px;
+    font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    color:#666666;
+}
+html, body, div, span, h1, h2, h3, h4, h5, h6, em, img, strong, dd, dl, dt, form, label, table, caption, tbody, tfoot, thead, tr, th, td,ul,li,p,a{
+    margin: 0;
+    padding: 0;
+}
+input,select,textarea,img{
+    vertical-align:middle;
+}
+img{
+    border:0;
+}
+input{
+    outline: none;
+}
+ul,ol,li{
+    list-style-type:none;
+}
+a:link,a:visited{
+    text-decoration:none;
+    color:#333333;
+}
+a:hover{
+    color:#f69;
+}
+.clear {
+    clear:both;
+    font-size:1px;
+    height:0;
+    line-height:0;
+    visibility:hidden;
+}
+.cbody{
+    margin:0 auto;
+    width: 1200px;
+
+}
+.wrap{
+    height: 100%;
+    width: 100%;
+    padding-bottom: 50px;
+    background: #fbccb2;
+
+}
+.reg_wrap{
+    width: 980px;
+    height: 707px;
+    margin: 0 auto;
+}
+.head{
+    width: 980px ;
+    height: 100px;
+    padding-top: 40px;
+
+    display: block;
+
+}
+.head .a1{
+    display: inline-block;
+    width: 157px;
+    height: 56px;
+    margin-right: 50px;
+    background: url("images/images/regC343.png");
+}
+.head .a2{
+    display: inline-block;
+    width: 336px;
+    height: 50px; 
+    background: url("images/images/wel8399.png");
+}
+.main{
+    width: 850px;
+    height: 538px;
+    padding: 80px 40px 50px;
+    background: #fff;
+}
+.ad_wrap{
+    width: 370px;
+    height: 353px;
+    float: left;
+}
+.login{
+    width: 320px;
+    height: 538px;
+    margin-right: 30px;
+    float: right;
+}
+
+.login h3{
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.login h3 a{
+    float: right;
+    color: #f69;
+    font-size: 14px;
+    padding-right: 3px;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+.login input{
+    width: 280px;
+    height: 34px;
+    border:1px solid #ddd ;
+    margin-bottom: 30px;
+    padding-right: 35px;
+}
+.login p{
+    margin-bottom: 5px;
+}
+.login .img_list{
+    width: 320px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+.login .img_list img{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+}
+.login .img_list a{
+
+    color: #f69;
+    text-decoration: underline;
+    font-weight: normal;
+    width: 36px;
+    height: 15px;
+    display: inline-block;
+    margin-top: 40px;
+
+}
+.login .login_btn_wrap .login_btn{
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    width: 320px;
+    height: 46px;
+    background: #f69;
+    line-height: 46px;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+
+
+

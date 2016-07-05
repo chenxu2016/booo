@@ -1,0 +1,746 @@
+body{
+    font-size:12px;
+    font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    color:#333333;
+}
+html, body, div, span, h1, h2, h3, h4, h5, h6, em, img, strong, dd, dl, dt, form, label, table, caption, tbody, tfoot, thead, tr, th, td,ul,li,p,a{
+    margin: 0;
+    padding: 0;
+}
+input,select,textarea,img{
+    vertical-align:middle;
+}
+img{
+    border:0;
+}
+input{
+    outline: none;
+}
+ul,ol,li{
+    list-style-type:none;
+}
+a:link,a:visited{
+    text-decoration:none;
+    color:#333333;
+}
+a:hover{
+    color:#f69;
+}
+.clear {
+    clear:both;
+    font-size:1px;
+    height:0;
+    line-height:0;
+    visibility:hidden;
+}
+.cbody{
+    margin:0 auto;
+    width: 1200px;
+}
+
+
+.header{
+    width: 100%;
+    height: 200px;
+}
+.headerTop{
+    width: 1263px;
+    height: 31px;
+    border-bottom:1px solid #eee;
+    line-height: 31px;
+}
+.headerTop .cLeft{
+
+    height: 30px;
+    float: right;
+
+}
+.headerTop ul li{
+    display: inline-block;
+    text-align: center;
+
+}
+.headerTop .cLeft li a{
+    padding: 0 15px;
+    border-right:1px dotted #ccc ;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+}
+.headerTop ul li a em{
+    display: inline-block;
+    width: 24px;
+    height: 17px;
+    vertical-align:top;
+}
+.headerTop ul li a em.bg1{
+    background: url("images/mls_global140607.png") no-repeat -185px -20px;
+
+}
+.headerTop ul li a em.bg2{
+     background:url("images/mls_global140607.png") no-repeat 0 -163px;
+
+ }
+.headerTop ul li a em.bg3{
+    background:url("images/mls_global140607.png") no-repeat -223px -43px;
+
+}
+.headerTop ul li a em.bg4{
+    background:url("images/mls_global140607.png") no-repeat -171px -45px;
+
+}
+.headerTop ul li a em.bg5{
+    margin-left: 2px;
+    vertical-align: inherit;
+    width: 10px;
+    height: 6px;
+    background:url("images/mls_global140607.png") no-repeat -22px -70px;
+
+}
+.headerTop ul li.listT{
+    position: relative;
+}
+.headerTop ul li.listT:hover ul{
+    z-index: 999;
+    display: block;
+}
+.headerTop ul li.listT ul{
+    background: #ffffff;
+   width: 262px ;
+    height: 87px;
+    border: 1px solid #ccc;
+    border-top:none ;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    display: none;
+}
+
+.headerTop ul li.listT ul li{
+    width: 240px;
+    height: 75px;
+    margin: 6px 7px;
+}
+.headerTop ul li.listT ul li img{
+    width: 80px ;
+    height: 70px;
+    margin-right: 3px;
+    float: left;
+}
+.headerTop ul li.listT ul li div{
+    text-align: left;
+    height: 20px;
+    line-height: 20px;
+
+}
+.headerTop ul li.listT ul li div.client{
+    color: #f69;
+    font-size: 14px;
+}
+
+
+
+.headerTop .inner{
+    height: 120px;
+
+    position: relative;
+
+}
+.headerTop .inner h1{
+    width: 204px;
+    height: 52px;
+    padding: 34px 0 ;
+}
+.headerTop .inner .search{
+
+    width: 520px;
+    position: absolute;
+    top: 21px;
+    left: 50%;
+    margin-left:-240px ;
+
+}
+.headerTop .inner .search .search-tab span{
+    float: left;
+    display: block;
+    width: 56px;
+    height: 24px;
+    background: #f2f2f2;
+    line-height: 26px;
+    text-align: center;
+
+
+}
+.headerTop .inner .search .search-tab span.active{
+    background: #ff6699;
+}
+.headerTop .inner .search .search-box{
+    height: 30px;
+    position: relative;
+}
+.headerTop .inner .search .search-tab a:hover{
+    color: #666;
+}
+.headerTop .inner .search .search-box .seachtxt{
+    float: left;
+    width: 437px;
+    height: 28px;
+    line-height: 28px;
+    border: 2px solid #ff6699;
+
+}
+.headerTop .inner .search .search-box .btn{
+    display: inline-block;
+    width: 70px;
+    height: 34px;
+    background: #ff6699;
+
+}
+.headerTop .inner .search .search-box .btn img{
+    margin: 0 5px;
+    margin-left:30% ;
+}
+.headerTop .inner .search .box1{
+    width: 520px;
+    height: 27px;
+    padding-top: 1px;
+
+}
+.headerTop .inner .search .box1 a{
+    margin-right: 5px;
+}
+.headerTop .inner .search .box1 .bg{
+    color:#ff6699 ;
+}
+.headerTop .nav{
+   width: 1263px;
+    height: 50px;
+
+    border-bottom:1px solid #ff6699 ;
+}
+.nav ul{
+    margin-left: 25px;
+}
+.nav ul li{
+    margin-right: 9px;
+
+}
+.nav ul li a{
+    padding: 15px;
+    padding-bottom:0 ;
+    font-size: 14px;
+   font-weight: bold;
+    line-height: 48px;
+
+}
+.nav ul li span{
+    height: 20px;
+    display: inline-block;
+    color: #ccc;
+}
+.nav ul li a .bg{
+    width: 9px;
+    height: 9px;
+    background:url("images/mls_global140607.png") no-repeat -22px -70px;
+    vertical-align: inherit;
+    margin-left: 5px;
+}
+.nav ul li.bg2 {
+
+    border-bottom:2px solid  #ff6699 ;
+
+}
+.nav ul li.bg2 a{
+    color:  #ff6699;
+}
+.nav ul li:hover{
+    color:  #ff6699;
+    border-bottom:2px solid  #ff6699 ;
+}
+
+.nav ul li.pink a{
+    color:#ff6699 ;
+}
+.nav ul .de{
+    position: relative;
+}
+.nav ul .de .list{
+    position: absolute;
+    top: 50px;
+    left: -25px;
+    border: 1px solid #ccc;
+    border-top:none ;
+    width: 80px;
+    display: none;
+    z-index: 99;
+    background: #ffffff;
+}
+.nav ul .de:hover .list{
+    display: block;
+}
+.nav ul .de .list li{
+    width: 50px;
+}
+.section{
+    position: relative;
+
+
+
+}
+.section .sec_attr{
+    float: left;
+    width: 240px;
+    height: 574px;
+    border: 1px solid #ccc;
+    border-top:none ;
+
+
+
+}
+.section .sec_attr .list{
+   width: 242px ;
+    height: 114px;
+    padding: 0 10px;
+    position: relative;
+}
+.section .sec_attr .list .list_ne{
+    padding: 15px 0 10px 0;
+    width: 198px;
+    height: 85px;
+    border-bottom:1px  dotted #ccc ;
+}
+.section .sec_attr .list .list_ne a{
+    line-height: 24px;
+    padding-right: 20px;
+}
+.section .sec_attr .list .list_ne a.bj{
+    color:  #ff6699;
+}
+.section .sec_attr .list .list_ne .corner{
+    position: absolute;
+    left: 212px;
+    top: 57px;
+    font-size: 14px;
+}
+
+
+
+
+.section .sec_attr .list .list_nn{
+
+    display: none;
+    position: absolute;
+    left: 240px;
+    top: 0;
+    padding: 18px 0 10px 0;
+    width: 198px;
+    height: 85px;
+    border:1px  solid #ccc ;
+    border-top: none;
+    z-index: 99;
+    background: #ffffff;
+     padding-left: 5px;
+}
+
+.section .sec_attr .list:hover .list_nn{
+    display: block;
+}
+
+.section .sec_attr .list .list_nn a{
+    line-height: 24px;
+    margin-right: 20px;
+}
+
+
+
+
+
+/*-------------------------------------------------------------------------*/
+
+.attr_box .fRidth{
+    width: 956px;
+    height: 420px;
+    border: 1px solid #e4b9c0;
+    float: right;
+}
+.box{
+    width: 956px;
+    height: 420px;
+    position: relative;
+
+}
+.box .imgWrap{
+    width:100%;
+    height:300px;
+    background: url("images/default.gif") center center no-repeat #e1e1e1;
+}
+.box .imgWrap div{
+    position: absolute;
+    left:0;
+    top:0;
+
+    z-index: 0;
+    opacity: 0;
+    filter:'alpha(opacity=0)';
+}
+.box .imgWrap div img{
+    width:100%;
+    height:100%;
+}
+.box ul{
+    position: absolute;
+    right:10px;
+    bottom:10px;
+    overflow: hidden;
+    z-index:10;
+}
+.box ul li{
+    float: left;
+    width: 18px;
+    height:18px;
+    background: #ccc;
+    border-radius: 50%;
+    margin-left:10px;
+    cursor: pointer;
+}
+.box ul li.bg{
+    background: lightblue;
+}
+.box a{
+    position: absolute;
+    top:127.5px;
+    width: 30px;
+    height: 45px;
+    background-image: url("images/pre.png");
+    background-repeat: no-repeat;
+    opacity: .5;
+    fliter:'alpha(opacity=50)';
+    display: none;
+    z-index:10;
+}
+.box a:hover{
+    opacity: 1;
+    fliter:'alpha(opacity=100)';
+}
+.box a.btnLeft{
+    background-position: 0 0;
+    left:30px;
+}
+.box a.btnRight{
+    background-position: -50px 0;
+    right:30px;
+}
+
+.bnr_box{
+
+    width: 100%;
+
+
+
+
+}
+.bnr_box li{
+    margin-top: 7px;
+    width: 182px;
+    height: 145px;
+    float: left;
+    margin-left: 9px;
+}
+.bnr_box li img{
+    display: inline-block;
+
+}
+.hifan{
+    margin-top: 40px;
+
+    height: 100%;
+}
+
+.guess{
+    margin-top: 40px;
+
+    height: 100%;
+}
+.Navimg{
+    margin-top: 40px;
+
+    height: 100%;
+}
+.Navimg .tit{
+    width: 1200px;
+    height: 22px;
+
+}
+.guess h2 span{
+    font-size: 12px;
+    color: #999999;
+    padding: 0 5px;
+}
+
+
+
+.hifan h2 span{
+    font-size: 12px;
+    color: #999999;
+    padding: 0 5px;
+}
+
+.tit h2 span{
+    font-size: 12px;
+    color: #999999;
+    padding: 0 5px;
+}
+.Navimg .tit .b1{
+    width: 990px;
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+}
+.module .tit .b1{
+    width: 990px;
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+}
+.guess h2 .b1{
+    width: 990px;
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.module{
+    margin-top: 40px;
+
+    height: 100%;
+}
+.module .itam{
+    margin-top: 10px;
+}
+
+.module .itam .pnone{
+    margin-left: 0;
+}
+
+
+
+
+.hifan .itam{
+    margin-top: 10px;
+}
+
+
+.hifan .b1{
+    width: 990px;
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+}
+.module .itam li{
+    float: left;
+    width: 386px;
+    height: 528px;
+    margin-left: 20px;
+
+}
+.module .itam li img{
+     width: 386px;
+     height: 386px;
+ }
+.module .itam li h3{
+   font-size: 18px;
+    color: #ff6699;
+    margin-top: 13px;
+}
+.module .itam li h3 span{
+    padding-left: 25px;
+    color: #999;
+    font-size: 12px;
+}
+.module .itam li p{
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.module .itam li .bsize{
+    line-height: 24px;
+    color: #666;
+}
+.module .itam li .pink a{
+    color:#ff6699 ;
+    padding-right: 10px;
+}
+
+
+.Navimg .cont{
+    margin-top: 10px;
+    width: 1220px;
+    height: 230px;
+
+}
+.Navimg .cont a{
+    margin-right: 20px;
+    float: left;
+}
+.Navimg .cont a img{
+    display: inline-block;
+    width: 183px;
+    height: 227px;
+
+}
+
+.hifan ul{
+    margin-top: 10px;
+   margin-left: 35%;
+    cursor: pointer;
+    color: #666;
+
+
+}
+.hifan div{
+    margin-top: 10px;
+}
+.hifan .conter{
+    margin: 0 16px;
+}
+.hifan ul li{
+    font-size: 16px;
+    float: left;
+    margin-left: 30px;
+}
+.boxx{
+    margin-top: 50px;
+}
+.bgcolr{
+    color: #f69;
+    border-bottom: 2px solid #f69;
+}
+
+
+#tab div{
+  display: inline-block;
+    float: left;
+}
+#tab div{
+    display: none;
+}
+#tab{
+    margin-top: 20px;
+}
+#tab div img{
+    float: left;
+    width: 386px;
+    height: 230px;
+}
+
+
+.guess ul{
+    margin-top: 10px;
+}
+.guess ul .nest1{
+    float: left;
+    margin-left: 17px;
+    width: 224px;
+    height: 435px;
+}
+.guess ul li.nest{
+    margin-left: 0;
+}
+.guess ul li img{
+    width: 224px;
+    height: 340px;
+}
+
+.nest1 h4{
+    margin-top: 10px;
+    font-size: 16px;
+    color:  #f69;
+}
+.nest1 h4 span{
+    font-size: 12px;
+    float: right;
+    text-align: center;
+}
+.nest1 p{
+    height: 20px;
+    line-height: 20px;
+}
+
+.footer{
+    width: 1263px;
+    height: 317px;
+    margin-top: 1px;
+   background: #f5f5f5;
+}
+.footer .inner{
+    padding:31px 0 0 31px ;
+    background: #f5f5f5;
+}
+.footer .inner .custem{
+    width: 186px;
+    height: 75px;
+    float: left;
+}
+.footer .inner .custem .ico{
+    width: 36px;
+    height: 40px;
+    background: url("images/mls_global140607.png") 0 -115px no-repeat;
+    float: left;
+    margin-right: 10px;
+}
+.footer .inner .custem .cee{
+    float: right;
+
+}
+.footer .inner .custem .fsize{
+    font-size: 16px;
+}
+.footer .inner .custem .link{
+    line-height: 20px;
+}
+.footer .inner .listf{
+    margin-left: 50px;
+    width: 75px;
+    height: 106px;
+    float: left;
+}
+.footer .inner .listf {
+    font-size: 16px;
+}
+.footer .inner .listf p{
+    line-height: 26px;
+    font-size: 12px;
+    color: #666;
+}
+
+.flist{
+    margin-left: 40px;
+    width: 136px;
+    height: 165px;
+    float: left;
+}
+.flist h4{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.imga{
+    width: 107px;
+    height: 146px;
+    float: left;
+    margin-left: 80px;
+}
+.nav_list{
+    width: 1200px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.nav_list p span{
+    margin-right: 5px;
+    line-height: 20px;
+}
+
+
+
+
+
+
+
